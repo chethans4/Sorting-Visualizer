@@ -1,0 +1,47 @@
+.array {
+    position:absolute;
+    left: 100px;
+    bottom: 0px;
+}
+@media screen and (min-width: 480px) {  
+}
+.array-bars {
+    /* width: 5px; */
+    position: relative;
+    background-color: #0f5d65;
+    display: inline-block;
+    margin: 0 1px;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Jura','Courier New', Courier, monospace;
+    color: aliceblue;
+    display: inline-block;
+    margin: 0px 0px;
+}
+.button-class {
+    background-color: #0d1a2c;
+    display:list-item;
+}
+.button {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Jura', Courier, monospace;
+    background-color: #0d1a2c;
+    display: inline;
+    margin: 2px 12px;
+    width: 150px;
+    height: 50px;
+    border: #0d1a2c;
+    color: aliceblue;
+}
+#shuffle:hover,
+#bubblesort:hover,
+#mergesort:hover,
+#quicksort:hover,
+#heapsort:hover,
+#radixsort:hover,
+#selectionsort:hover {
+    color: #0d1a2c;
+    background-color: #74cdf3;
+}
